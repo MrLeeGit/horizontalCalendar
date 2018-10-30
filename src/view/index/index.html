@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, minimal-ui,user-scalable=no,viewport-fit=cover" /> 
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>单行日历组件</title>
+  </head>
+  <body>
+    <div style="text-align: center; margin:20px 0">当前日期为：2018年10月30日</div>
+    <div class="swiper-container"  id="calendarDom">
+        <div class="swiper-wrapper"></div>
+    </div>
+    
+    <style>
+      .swiper-slide{ text-align: center; cursor: pointer;}
+      .day{ width:30px; height:30px; line-height: 30px; text-align: center; display: inline-block; margin-top:10px;}
+      .day.active{ background:red; border-radius: 50%; font-weight: blod; color:#fff;}
+    </style>
+  </body>
+</html>

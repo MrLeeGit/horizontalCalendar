@@ -1,0 +1,29 @@
+{
+  "name": "horizontalCalendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "marax dev",
+    "build": "marax build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLeeGit/horizontalCalendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrLeeGit/horizontalCalendar/issues"
+  },
+  "homepage": "https://github.com/MrLeeGit/horizontalCalendar#readme",
+  "devDependencies": {
+    "typescript": "^3.1.4",
+    "webpack-marauder": "^1.13.0"
+  },
+  "dependencies": {
+    "swiper": "^4.4.1"
+  }
+}
